@@ -1,0 +1,124 @@
+{"level":30,"time":"2025-06-15T20:08:27.067Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Listening on 127.0.0.1:50361"}
+(node:93458) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-15T20:08:28.197Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-15T20:08:29.450Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Adding browser to stack: chromium, version: 138.0.7204.15"}
+{"level":30,"time":"2025-06-15T20:08:29.451Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-15T20:08:29.450Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-15T20:08:29.460Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-15T20:08:29.460Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-06-15T20:08:29.460Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-15T20:08:29.460Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Trace file: "}
+{"level":30,"time":"2025-06-15T20:08:29.492Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Changed active context"}
+{"level":30,"time":"2025-06-15T20:08:29.492Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-15T20:08:29.495Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-15T20:08:29.495Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-15T20:08:30.024Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-15T20:08:30.024Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Changed active page"}
+{"level":30,"time":"2025-06-15T20:08:31.772Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-15T20:08:31.798Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2025-06-15T20:08:31.808Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2025-06-15T20:08:31.813Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:31.813Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with [data-test=\"username\"] in page."}
+{"level":30,"time":"2025-06-15T20:08:31.844Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:31.847Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:31.847Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with [data-test=\"password\"] in page."}
+{"level":30,"time":"2025-06-15T20:08:31.854Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:31.859Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-15T20:08:31.859Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with [data-test=\"login-button\"] in page."}
+{"level":30,"time":"2025-06-15T20:08:31.949Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-15T20:08:31.954Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-15T20:08:31.954Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with .title in page."}
+{"level":30,"time":"2025-06-15T20:08:31.956Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-15T20:08:31.961Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-15T20:08:31.961Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with .title in page."}
+{"level":30,"time":"2025-06-15T20:08:31.975Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Retrieved text for element .title containing Products"}
+{"level":30,"time":"2025-06-15T20:08:31.975Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-15T20:08:31.982Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-15T20:08:31.990Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Removed page=d2930452-5fe8-43eb-bfaa-7c9f8728ffb7 from context=4644e5b7-9a8a-48f4-b4ee-cd711ed63c43 page stack"}
+{"level":30,"time":"2025-06-15T20:08:32.117Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-15T20:08:32.124Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-15T20:08:32.124Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-15T20:08:32.128Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-15T20:08:32.128Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-15T20:08:32.133Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-15T20:08:33.065Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Adding browser to stack: chromium, version: 138.0.7204.15"}
+{"level":30,"time":"2025-06-15T20:08:33.066Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-15T20:08:33.066Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-15T20:08:33.079Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-15T20:08:33.079Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-06-15T20:08:33.079Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-15T20:08:33.079Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Trace file: "}
+{"level":30,"time":"2025-06-15T20:08:33.083Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Changed active context"}
+{"level":30,"time":"2025-06-15T20:08:33.083Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-15T20:08:33.086Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-15T20:08:33.086Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-15T20:08:33.372Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-15T20:08:33.372Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Changed active page"}
+{"level":30,"time":"2025-06-15T20:08:34.919Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-15T20:08:34.929Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method setViewportSize"}
+{"level":30,"time":"2025-06-15T20:08:34.941Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method setViewportSize"}
+{"level":30,"time":"2025-06-15T20:08:34.946Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:34.946Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with [data-test=\"username\"] in page."}
+{"level":30,"time":"2025-06-15T20:08:34.972Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:34.978Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:34.978Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with [data-test=\"password\"] in page."}
+{"level":30,"time":"2025-06-15T20:08:34.983Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-15T20:08:34.989Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-15T20:08:34.989Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with [data-test=\"login-button\"] in page."}
+{"level":30,"time":"2025-06-15T20:08:35.034Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-15T20:08:35.038Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-15T20:08:35.038Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with .error-message-container.error in page."}
+{"level":30,"time":"2025-06-15T20:08:35.040Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-15T20:08:35.042Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-15T20:08:35.042Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with .error-message-container.error in page."}
+{"level":30,"time":"2025-06-15T20:08:35.053Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Retrieved text for element .error-message-container.error containing Epic sadface: Sorry, this user has been locked out."}
+{"level":30,"time":"2025-06-15T20:08:35.053Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-15T20:08:35.057Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-15T20:08:35.064Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Removed page=549472eb-9938-4f72-bb8c-917d0e1b97da from context=9129d022-f04f-42fa-a349-468fee7f3688 page stack"}
+{"level":30,"time":"2025-06-15T20:08:35.179Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-15T20:08:35.184Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-15T20:08:35.184Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/aronkock/PycharmProjects/RobotFramework_Practice/venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-15T20:08:35.187Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-15T20:08:35.187Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-15T20:08:35.227Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-15T20:08:35.228Z","pid":93458,"hostname":"Arons-MacBook-Air-2.local","msg":"End of node method closeAllBrowsers"}
