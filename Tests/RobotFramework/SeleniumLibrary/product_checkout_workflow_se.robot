@@ -27,6 +27,11 @@ ${ORDER_CONFIRMATION_HEADER}    css=.complete-header
 ${BURGER_MENU_BUTTON}           id=react-burger-menu-btn
 ${LOGOUT_LINK}                  id=logout_sidebar_link
 
+# New Variables for Remove Item Test Case
+${REMOVE_BACKPACK_BUTTON}       id=remove-sauce-labs-backpack
+${CART_ITEM}                    css=.cart_item
+${SHOPPING_CART_BADGE}          css=.shopping_cart_badge
+
 
 ***Test Cases***
 Valid Login Test
@@ -57,16 +62,26 @@ Successful Purchase Workflow
     Logout From Application
     Close Browser
 
+Remove Item From Cart Test
+    Open Browser To Login Page
+    Enter Valid Credentials
+    Click Login Button
+    Verify Successful Login
+    Add Backpack To Cart
+    Navigate To Cart
+    Remove Backpack From Cart
+    Verify Cart Is Empty
+    Close Browser
+
 ***Keywords***
 Open Browser To Login Page
-    ${options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys
-    Call Method    ${options}    add_argument    --incognito
-    Call Method    ${options}    add_argument    --disable-save-password-bubble
-    Create WebDriver    Chrome    options=${options}
-    Go To    ${URL}
+    ${options}=     Evaluate        sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
+    Call Method     ${options}      add_argument    --incognito
+    Call Method     ${options}      add_argument    --disable-save-password-bubble
+    Open Browser    ${URL}          ${BROWSER}      options=${options}
     Maximize Browser Window
     Delete All Cookies
-    Set Selenium Speed    0.3s
+    Set Selenium Speed      0.5s
     Set Selenium Implicit Wait      5s
 
 Enter Valid Credentials
@@ -91,7 +106,7 @@ Verify Error Message Displayed For Locked Out User
 
 Add Backpack To Cart
     Click Element   ${ADD_TO_CART_SAUCE_LABS_BACKPACK}
-    Wait Until Element Is Visible   ${SHOPPING_CART_ICON}
+    Wait Until Element Is Visible   ${SHOPPING_CART_BADGE}
 
 Navigate To Cart
     Click Element   ${SHOPPING_CART_ICON}
@@ -122,3 +137,12 @@ Logout From Application
     Wait Until Element Is Visible   ${LOGOUT_LINK}
     Click Element   ${LOGOUT_LINK}
     Wait Until Location Is          ${URL}
+
+# New Keywords for Remove Item Test Case
+Remove Backpack From Cart
+    Wait Until Element Is Visible   ${REMOVE_BACKPACK_BUTTON}
+    Click Element   ${REMOVE_BACKPACK_BUTTON}
+
+Verify Cart Is Empty
+    Element Should Not Be Visible   ${CART_ITEM}
+    Element Should Not Be Visible   ${SHOPPING_CART_BADGE}
