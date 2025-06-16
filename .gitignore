@@ -1,0 +1,30 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm project files
+.idea/
+
+# Environment
+venv/
+.env
+
+# Robot Framework outputs
+output.xml
+log.html
+report.html
+playwright-log.txt
+selenium-screenshot-*.png
+
+# OS-specific files
+.DS_Store
+
+# Executables or binaries
+chromedriver
+*.exe
+
+# Miscellaneous
+*.log
+*.tmp
+11.4.2
